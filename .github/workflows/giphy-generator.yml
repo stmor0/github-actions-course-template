@@ -3,9 +3,9 @@ name: GIPHY generator
 on: 
   issues:
     types: [opened, edited]
-  pull_requests:
+  pull_request:
     types: [opened, edited]
-  issues_comment:
+  issue_comment:
     types: [created, edited]
     
 jobs:
